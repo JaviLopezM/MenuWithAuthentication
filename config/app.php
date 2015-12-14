@@ -146,6 +146,7 @@ return [
         MenuWithAuthentication\Providers\EventServiceProvider::class,
         MenuWithAuthentication\Providers\RouteServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Acacha\AdminLTETemplateLaravel\app\Providers\AdminLTETemplateServiceProvider::class,
 
     ],
 
