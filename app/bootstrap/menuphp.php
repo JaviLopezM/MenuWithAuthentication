@@ -14,6 +14,7 @@ MenuWithAuthentication::menu()
     ->rol('home')
     ->permission('home');
 
+
 //Other Link
 MenuWithAuthentication::menu()
     ->title("Another Link");
