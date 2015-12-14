@@ -208,6 +208,9 @@ class MenuItem
     }
     public function item(){
         $old = static::$current;
-        
+        static::$current = $this;
+        static::$current = $old;
+        return $this;
+
     }
 }
